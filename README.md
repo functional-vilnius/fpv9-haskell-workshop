@@ -47,9 +47,9 @@ First, obtain this repository, either via `git`:
 
 or simply by downloading the zip archive and extracting it.
 
-From within the `fpv9-haskell-workshop` directory run `stack build`:
+From within the `fpv9-haskell-workshop/bmp-editor` directory run `stack build`:
 
-    cd fpv9-haskell-workshop/
+    cd fpv9-haskell-workshop/bmp-editor
     stack build
 
 Finally, you can try running the tests
@@ -73,7 +73,7 @@ then you are done!
 
 * Enter the directory for this repo and run vagrant
 
-    cd fpv9-haskell-workshop/
+    cd fpv9-haskell-workshop/bmp-editor
     vagrant up
 
 * Now run
