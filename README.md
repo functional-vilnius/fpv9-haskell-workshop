@@ -12,7 +12,7 @@ We recommend to install Haskell locally on your computer
 instead of using a VM, because you can then use your favourite
 text editor and a familiar environment. If, however, you are
 having issues with doing so, we will provide an Ubuntu-based
-Vagrant VM, see below on [Using Vagrant](#usingvagrant).
+Vagrant VM, see below on **Using Vagrant**.
 
 The easiest way to do so is using [stack](http://www.haskellstack.org).
 
@@ -39,48 +39,27 @@ To install it, simply run:
 
 This might take a while.
 
-### Building the sample application (#buildapp)
 
-First, obtain this repository, either via `git`:
+### Using Vagrant
+
+* [Install VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+* [Install Vagrant](https://www.vagrantup.com/downloads.html)
+* First, obtain this repository, either via `git`:
 
     git clone  https://github.com/functional-vilnius/fpv9-haskell-workshop
 
 or simply by downloading the zip archive and extracting it.
 
-From within the `fpv9-haskell-workshop/bmp-editor` directory run `stack build`:
-
-    cd fpv9-haskell-workshop/bmp-editor
-    stack build
-
-Finally, you can try running the tests
-
-    stack test
-
-If you see something like
-
-    Progress: 1/2Test suite not yet implemented
-
-    Completed 2 action(s).
-
-then you are done!
-
-
-### Using Vagrant (#usingvagrant)
-
-* [Install VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-* [Install Vagrant](https://www.vagrantup.com/downloads.html)
-* Download this repo (see first part of [Building the sample application](#buildapp)
-
-* Enter the directory for this repo and run vagrant
+From within the `fpv9-haskell-workshop/bmp-editor` directory run:
 
     cd fpv9-haskell-workshop/bmp-editor
     vagrant up
 
-* Now run
+Finally run
 
         vagrant ssh
 
-Finally, perform the steps in [Building the sample application](#buildapp).
+to enter the VM.
 
 
 Editor integration
