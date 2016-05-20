@@ -1,6 +1,6 @@
 Vagrant.configure(2) do |config|
     config.vm.box = "ubuntu/wily64"
-    config.vm.synced_folder "./", "/home/vagrant/fpv9-haskell-workshop",
+    config.vm.synced_folder "./", "/vagrant/fpv9-haskell-workshop",
       :owner => "vagrant",
       :group => "vagrant",
       mount_options: ["dmode=775,fmode=664"]
