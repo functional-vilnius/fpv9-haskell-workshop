@@ -18,7 +18,6 @@ render txt font =
     findChar c = case (lookup c (mapping font)) of
       Just g -> g
       Nothing -> error $ "No data for char: " ++ [c]
-
     pointToChar p =
       case p of
         W -> ' '
