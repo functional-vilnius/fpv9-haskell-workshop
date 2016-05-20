@@ -50,7 +50,7 @@ This might take a while.
 
 or simply by downloading the zip archive and extracting it.
 
-From within the `fpv9-haskell-workshop/bmp-editor` directory run:
+From within the `fpv9-haskell-workshop/huskysay` directory run:
 
     cd fpv9-haskell-workshop/huskysay
     vagrant up
