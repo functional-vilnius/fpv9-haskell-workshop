@@ -52,7 +52,7 @@ or simply by downloading the zip archive and extracting it.
 
 From within the `fpv9-haskell-workshop/bmp-editor` directory run:
 
-    cd fpv9-haskell-workshop/bmp-editor
+    cd fpv9-haskell-workshop/huskysay
     vagrant up
 
 Finally run
