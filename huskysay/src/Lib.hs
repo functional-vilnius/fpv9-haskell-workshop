@@ -4,9 +4,7 @@ where
 import           Data.List
 import           Types
 
-defaultReply :: String
-defaultReply = "hi"
-
+-- | Renders a string with provide font.
 render :: String -- ^ text to render
        -> Font   -- ^ font to use
        -> String -- ^ result
